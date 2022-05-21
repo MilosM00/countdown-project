@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.overlay{
+    padding-top: 100px;
+    display: grid;
+    place-items: center;
+}
+
+.display-countdown{
+    display: grid;
+    place-items: center;
+    width: 600px;
+    height: 250px;
+
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.inline{
+    display: flex;
+}
+
+.info{
+    margin-right: 20px;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds{
+    display: grid;
+    place-items: center;
+    width: 100px;
+    height: 100px;
+
+    font-family: 'Coiny', cursive;
+    font-size: 35px;
+    background: linear-gradient(to right, #e41c38, #DE3163);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+p{
+    text-align: center;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    font-style: italic;
+}
